@@ -1,0 +1,57 @@
+[
+{
+  "model": "shop.category",
+  "pk": 1,
+  "fields": {
+    "name": "Electronics",
+    "slug": "electronics"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 2,
+  "fields": {
+    "name": "Books",
+    "slug": "books"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 1,
+  "fields": {
+    "category": 1,
+    "name": "Gree Cosmo Ac",
+    "description": "The Gree GS-12XCOA5 1 Ton AC is designed with non-inverter technology and has a cooling capacity of 12,000 BTU, making it excellent for small to medium-sized rooms that require constant performance. The Gree 1 Ton Non-Inverter AC has a high-efficiency rotary compressor and a Golden Fin condenser, resulting in greater heat exchange, increased corrosion resistance, and a longer service life even in harsh conditions. The Gree GS-12XCOA5 AC uses environmentally friendly R32 refrigerant to provide efficient cooling while also contributing to a cleaner, greener environment. A powerful 2-way airflow technology distributes cool air uniformly throughout the room, aided by a bigger air volume and seven adjustable fan settings to meet various cooling requirements. The Gree Non-Inverter AC operates in ultra-quiet mode, letting you to relax peacefully, while the I-Feel feature uses the remote to automatically sense room temperature and maintain individualized comfort. The Gree GS-12XCOA5 1 Ton Non-Inverter AC features deep cleaning technology with IDU self-cleaning in four efficient steps for purer air, as well as ODU self-cleaning, which removes dust, manages condensation, and automatically performs frosting and defrosting. Comprehensive anti-corrosion protection, intelligent auto restart after power disruptions, and ultra-wide voltage operation all contribute to reliable performance and safety. The Gree GS-12XCOA5 1 Ton Non-Inverter AC is a trustworthy and comfortable cooling solution from the trusted Gree AC series, thanks to its balanced combination of performance, hygiene, safety, and durability.",
+    "price": "82000.00",
+    "image": "products/grecosmo.jpeg",
+    "is_active": true,
+    "created_at": "2026-07-26T18:08:40.716Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 2,
+  "fields": {
+    "category": 2,
+    "name": "Himu",
+    "description": "Very good book",
+    "price": "200.00",
+    "image": "products/Screenshot_from_2026-07-23_02-38-12.png",
+    "is_active": true,
+    "created_at": "2026-07-26T18:16:01.623Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 3,
+  "fields": {
+    "category": 1,
+    "name": "Smart SEK-S18ES 1.8 Liter Electric Kettle",
+    "description": "The Smart SEK-S18ES 1.8 Liter Electric Kettle is an excellent solution for individuals who prioritize efficiency and safety when it comes to hot water. Having a large 1.8-liter capacity, this kettle is ideal for brewing many cups of tea, coffee, or even instant noodles. Its powerful 1500W heating element quickly heats water to a boil in 3-4 minutes, guaranteeing that you never have to wait long for hot water. This Smart kettle makes it exceedingly easy to acquire hot water quickly, whether you're at home, at work, or wherever in between. The SEK-S18ES Smart Electric Kettle is made of high-quality stainless steel and has a glossy silver finish that adds to its modern design while also ensuring long-lasting durability. The body has a thickness of 0.41mm, making it strong and durable enough to survive regular usage without sacrificing performance. This strong design not only adds to the kettle's lifetime, but it also improves heat retention, allowing your water to stay hot for longer. This kettle's design prioritizes safety. The Smart SEK-S18ES Kettle has various safety features, including an automatic shut-off mechanism that activates when the water hits the boiling point of 100°C. This function helps to avoid mishaps and saves energy by ensuring that the kettle stops heating once the water is ready. The kettle includes boil-dry and overheat safety, which avoids harm if there is insufficient water or if the kettle is left on for too long. These safety features are part of the kettle's Triple Safety Protection system, which provides peace of mind during usage. The kettle's affordable design makes it both functional and elegant in any kitchen or workplace. Its small size and elegant design blend well with modern kitchens, and its solid performance makes it a dependable tool for any short boiling duties. With the Smart SEK-S18ES 1.8 Liter Electric Kettle, you can make hot drinks all day long, boil water for cooking, or make a cup of tea with ease and safety.",
+    "price": "600.00",
+    "image": "",
+    "is_active": false,
+    "created_at": "2026-08-02T19:03:43.121Z"
+  }
+}
+]
