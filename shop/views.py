@@ -1,7 +1,7 @@
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import filters, viewsets, generics
 from .models import Category, Product, Order, OrderItem
-from .serielizers import CategorySerializer,ProductSerializer, OrderSerializer
+from .serializers import CategorySerializer,ProductSerializer, OrderSerializer
 from rest_framework.views import APIView
 from rest_framework.response import Response
 
